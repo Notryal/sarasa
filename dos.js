@@ -87,8 +87,7 @@ if (sexo=="femenino" && (flag1 || edadMujerJoven<edad)) {
   flag1=0;
   }
   //d) La edad y nombre del estudiante que cursa mas materias exceptuando la carrera de Quimica. 
-if ((flag2 || alumnoMayorMaterias<cantidadMaterias) && carrera!="quimica") {
-  flag2=0,
+if (alumnoMayorMaterias<cantidadMaterias) && carrera!="quimica") {
   edadMaxMaterias=edad;
   nombreMaxMaterias=nombre;
   }
