@@ -40,7 +40,7 @@ alumnoMayorMaterias,
 edadMaxMaterias,
 nombreMaxMaterias;
 
-for (let i = 0; i < 1; i++) {
+for (let i = 0; i < 500; i++) {
   nombre = carrera = prompt("Ingrese su nombre!").toLowerCase();
   while (!(isNaN(nombre)) && (marca.length <0)) {
   nombre = prompt("Ingrese su nombre! no lo deje VACIO").toLowerCase();
