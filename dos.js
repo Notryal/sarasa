@@ -35,7 +35,6 @@ porcentajeQuimica,
 porcentajeFisica,
 porcentajeSistemas,
 //d
-flag2=1,
 alumnoMayorMaterias,
 edadMaxMaterias,
 nombreMaxMaterias;
@@ -87,7 +86,7 @@ if (sexo=="femenino" && (flag1 || edadMujerJoven<edad)) {
   flag1=0;
   }
   //d) La edad y nombre del estudiante que cursa mas materias exceptuando la carrera de Quimica. 
-if (alumnoMayorMaterias<cantidadMaterias) && carrera!="quimica") {
+if (alumnoMayorMaterias<cantidadMaterias && carrera!="quimica") {
   edadMaxMaterias=edad;
   nombreMaxMaterias=nombre;
   }
